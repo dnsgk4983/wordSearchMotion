@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>틀린 글자 찾기</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pretendard/dist/web/static/pretendard.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>틀린 글자 찾기</h1>
+  <button id="startBtn">게임 시작</button>
+  
+  <div id="progress-container">
+    <div id="progress-bar"></div>
+  </div>
+  <div id="time-text" style="display: none;">남은 시간: 5.0초</div>
+  
+  <div id="grid"></div>
+  <div id="result"></div>
+  <canvas id="particles"></canvas>
+
+  <button id="nextStepBtn" style="display: none; margin-top: 20px;">다음 문제 풀기</button>
+  <button id="retryBtn" style="display: none;">재도전</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
